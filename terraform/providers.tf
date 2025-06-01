@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "s3-remote-state1"
+    bucket = "remotestate-s301"
     key    = "k8-eksctl"
     region = "us-east-1"
-    dynamodb_table = "eks-locking"
+    dynamodb_table = "eks-locking1"
   }
 }
 
